@@ -15,7 +15,7 @@ def read_maps() -> list[list]:
             line = line.strip()
             if line == '':
                 mappings.append(mapping_list)
-            elif line[-4:] == 'map:':
+            elif line[-4:] == 'map.txt.txt:':
                 mapping_list = []
             else:
                 mapping_list.append([int(n) for n in line.split(' ')])

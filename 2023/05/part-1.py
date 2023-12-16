@@ -15,7 +15,7 @@ def read_maps() -> list[list]:
                 # mappings.append()
                 # print('==================== mapping end')
                 mappings.append(mapping_list)
-            elif line[-4:] == 'map:':
+            elif line[-4:] == 'map.txt.txt:':
                 mapping_list = []
                 # print('================= new mapping starts')
             else:
